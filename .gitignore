@@ -45,7 +45,3 @@ emailable-report.html
 
 ### IntelliJ (rest of the folder) ###
 .idea/
-
-### Secrets / local config ###
-config.properties
-.env
