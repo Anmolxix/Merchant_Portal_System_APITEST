@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="np.com.moco.Tests.DashboardTest"/>
+            <class name="np.com.moco.Tests.OperatorLogin"/>
+            <class name="np.com.moco.Tests.RolesTest"/>
+            <class name="np.com.moco.Tests.MccTest"/>
+            <class name="np.com.moco.Tests.MerchantTest"/>
+            <class name="np.com.moco.Tests.OperatorLogin"/>
+            <class name="np.com.moco.Tests.OutletTest"/>
+            <class name="np.com.moco.Tests.ReportTest"/>
+            <class name="np.com.moco.Tests.RolesTest"/>
+            <class name="np.com.moco.Tests.TerminalTest"/>
+            <class name="np.com.moco.Tests.TransactionTest"/>
+            <class name="np.com.moco.Tests.AdviceTest"/>
+            <class name="np.com.moco.Tests.AddressTest"/>
+            <class name="np.com.moco.Tests.ActivityLogTest"/>
+
+
+        </classes>
+    </test>
+</suite>
