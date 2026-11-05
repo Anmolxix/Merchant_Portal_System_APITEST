@@ -157,7 +157,7 @@ public class AdviceTest extends BaseClass {
         }
     }
 
-    /** Assumes the API rejects ranges longer than 32 days. Delete this test if it doesn't. */
+
     @Test(priority = 11)
     public void getAdviceListWithRangeLongerThan32DaysTest() {
         Response response = client.getAdviceList(getAuthToken(), longRangeStartDate(), longRangeEndDate());
@@ -304,7 +304,7 @@ public class AdviceTest extends BaseClass {
         ResponseAssertion.assertNotFound(response);
     }
 
-    /** Assumes the API rejects ranges longer than 32 days. Delete this test if it doesn't. */
+
     @Test(priority = 37)
     public void getAdviceZipLinkWithRangeLongerThan32DaysTest() {
         Response response = client.getAdviceZipLink(getAuthToken(), longRangeStartDate(), longRangeEndDate());
